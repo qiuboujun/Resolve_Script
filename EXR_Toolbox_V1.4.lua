@@ -170,7 +170,7 @@ end
    end
 
    flag_color = {'Blue','Cyan','Green','Yellow','Red','Pink','Purple','Fuchsia','Rose','Lavender','Sky','Mint','Lemon','Sand','Cocoa','Cream'}
-   resolve = Resolve()
+   resolve = app:GetResolve()
    pm = resolve:GetProjectManager()
    proj = pm:GetCurrentProject()
    ms = resolve:GetMediaStorage()
